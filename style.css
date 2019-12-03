@@ -1,0 +1,59 @@
+body {
+    margin: 0 auto;
+}
+
+body img {
+    display: block;
+    padding: 200px 0px 30px 0px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: block;
+    padding: 10px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 13px;
+    color: dimgray;
+    font-family: Arial;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+input[type=text] {
+    display: block;
+    height: 40px;
+    width: 500px;
+    margin: 0 auto;
+    outline: none;
+    border-top: 1px solid #cdcdcd;
+    border-bottom: 1px solid #cdcdcd;
+    /* border-left: none;
+    border-right: none; */
+    border-color: rgba(0, 0, 0, .15);
+    background-color: white;
+    font-size: 16px;
+}
+
+button {
+    height: 40px;
+    padding: 0px;
+}
