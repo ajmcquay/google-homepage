@@ -1,19 +1,10 @@
 body {
-    margin: 0 auto;
     font-family: Arial;
     font-size: 13px;
 }
 
-body img {
-    display: block;
-    padding: 200px 0px 30px 0px;
-    margin: 0 auto;
-}
-
 nav ul {
     list-style-type: none;
-    /*margin: 0;
-    padding: 0;*/
 }
 
 nav li {
@@ -34,48 +25,91 @@ nav li a:hover {
 #top-nav-left {
     position: absolute;
     top: 10px;
-    left: -10px;
+    left: -15px;
 }
 
 #top-nav-right {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    right: 30px;
+    top: 0px;
 }
 
 #apps-icon {
     height: 25px;
+    top: 8px;
     width: 25px;
     position: relative;
-    top: 10px;
+    
 }
 
 #sign-in {
-    background-color: lightskyblue;
+    background-color: #2582ec;
     border: 1px;
     border-radius: 2px;
     border-style: solid;
     color: #fff;
     font-weight: bold;
+    height: 35px;
     padding: 0 10px;
 }
 
-input[type=text] {
-    display: block;
-    height: 40px;
-    width: 500px;
-    margin: 0 auto;
+#search-body {
+    padding-top: 200px;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    text-indent: 35px;
+    width: 480px;
+    border: 0.5px solid #e6e6e6;
     outline: none;
-    border-top: 1px solid #cdcdcd;
-    border-bottom: 1px solid #cdcdcd;
-    /* border-left: none;
-    border-right: none; */
-    border-color: rgba(0, 0, 0, .15);
-    background-color: white;
-    font-size: 16px;
+}
+
+input[type="text"] {
+    border-radius: 40px;
+    font-size: 14px;
+    height: 30px;
+    box-shadow: 0 0 5px #dddddd;
+}
+
+#input-field {
+    background: url(images/search-glass.png) no-repeat 10px center;
+    background-size: 15px;
+    /*background-position-x: 8px;
+    background-position-y: 8px;*/
+    background-origin: content-box;
 }
 
 button {
+    -webkit-appearance: button;
+    appearance: button;
+    border: none;
+    border-radius: 5px;
+    background-color: #efefef;
     height: 40px;
-    padding: 0px;
+    padding: 10px;
+}
+
+button:hover {
+    border: 1px;
+    border-color: #c0c0c0;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+button:hover a {
+    color: black;;
+}
+
+button a {
+    color: #797979;
+    font-size 14px;
+    text-decoration: none;
+}
+
+.buttons {
+    display: block;
+    margin-top: 20px;
 }
