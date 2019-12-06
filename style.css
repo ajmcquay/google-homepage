@@ -27,6 +27,14 @@ p {
     padding-top: 10px;
 }
 
+p a {
+    text-decoration-line: none;
+}
+
+p a:hover {
+    text-decoration-line: underline;
+}
+
 /* Top navigation menu */
 #top-nav-left {
     position: absolute;
